@@ -14,15 +14,14 @@ class _ShowAllTaskUiState extends State<ShowAllTaskUi> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.greenAccent,
-        title: Center(
-          child: Text(
-            'Task Krubb',
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-            ),
+        title: Text(
+          'Task Krubb - All Task',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
           ),
         ),
+        centerTitle: true,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {

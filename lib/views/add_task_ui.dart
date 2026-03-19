@@ -13,15 +13,14 @@ class _AddTaskUiState extends State<AddTaskUi> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.greenAccent,
-        title: Center(
-          child: Text(
-            'Task Krubb - Add',
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-            ),
+        title: Text(
+          'Task Krubb - Add',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
           ),
         ),
+        centerTitle: true,
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
