@@ -1,0 +1,38 @@
+name: flutter_task_v1_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^11.0.0 
+  google_fonts: ^8.0.2 
+  image_picker: ^1.2.1 # เปิดกล้องแกลอรี่
+  image_web_picker: ^0.0.2 
+  intl: ^0.20.2 # ใช้จัด format วันที่ เวลา ตัวเลขจำนวนเต็ม 
+  supabase_flutter: ^2.12.0 # ใช้เชื่อมต่อกับฐานข้อมูล Supabase
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+  icons_launcher: ^3.0.3 
+
+icons_launcher:
+  image_path: "assets/ic_logo_radius.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/
+    - assets/icon/
