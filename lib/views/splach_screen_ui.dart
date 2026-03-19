@@ -33,21 +33,22 @@ class _SplachScreenUiState extends State<SplachScreenUi> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.asset(
-                  'assets/image/Logo.png',
+                  'assets/image/ic_logo_radius.png',
                   width: 200,
                   height: 200,
                 ),
-                SizedBox(height: 20),
+                SizedBox(height: 30),
                 Text(
                   'Task Krubb',
                   style: TextStyle(
-                    fontSize: 24,
+                    fontSize: 40,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
                 ),
-                SizedBox(height: 20),
+                SizedBox(height: 50),
                 CircularProgressIndicator(
+                  strokeWidth: 6,
                   valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
                 ),
               ],
@@ -60,15 +61,16 @@ class _SplachScreenUiState extends State<SplachScreenUi> {
                 Text(
                   'Created by Shon tha ya',
                   style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.white70,
-                  ),
+                      fontSize: 20,
+                      color: Colors.white70,
+                      fontWeight: FontWeight.bold),
                 ),
                 Text(
                   'Southeast Asia University',
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white70,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
                 SizedBox(height: 20),
